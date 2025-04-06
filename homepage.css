@@ -1,0 +1,89 @@
+body{
+    background-color: #0f0f0f;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1{
+    margin: 0em;
+}
+.rightTab>.rightA,.rightB,.rightC{
+    float: left;
+    background-color: #2f2f2f;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    margin: 1em;
+    border-radius: 25px;
+    width: 40%;
+    height: 32em;
+}
+.rightTab>.rightA,.rightB{
+    width: 40%;
+}
+.rightTab>.rightC{
+    width: 90%;
+}
+.leftTab{
+    background-color: #2f2f2f;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;  
+}
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
+} 
+.container>.leftTab>a{
+    color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+a:active {
+    text-decoration: underline;
+}
+
+form {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #1b1a1a;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0f0f0f;
+}
